@@ -10,4 +10,6 @@ with open('C:/Codes/class_scores.txt', 'r', encoding='utf-8') as old_scores, ope
         elif len(pupil)>0 and int(pupil[-1])>94:
             pupil[-1]=' '+'100'+'\n'
             new_scores.writelines(pupil)
+            
+# Test comment
     
